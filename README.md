@@ -1,27 +1,70 @@
-# Bases
+# Update last version npm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+```
+npm install -g npm@latest
+```
 
-## Development server
+## Limpiar cache
+```
+npm cache clean --force
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Desactivar auditorias npm para evitar fallos
 
-## Code scaffolding
+```
+npm set audit false
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Descativar versiones anteriores angular cli
+```
+npm uninstall -g angular-cli
+npm uninstall -g @angular/cli
+```
 
-## Build
+## Limpiar cache para borrar posibles conflictos
+```
+npm cache clean --force
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalar angular-cli ultima version
+```
+npm install -g @angular/cli
+```
 
-## Running unit tests
+## Nuevo proyecto
+```
+ng new
+``` 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Levantar angular
+```
+ng serve
+```
 
-## Running end-to-end tests
+## Instalar bootstrap command line
+```
+npm install bootstrap@next --save
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Instalar dependencias despues de guardar en package.json
+```
+npm update
+Despues agregar a angular.js
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Modelos (Entidades que representan el backend)
+
+## Crear componente
+```
+ng g component nombreComponente
+```
+
+
+# Desplegar
+
+- generar version de produccion
+```
+ng build --prod
+```
